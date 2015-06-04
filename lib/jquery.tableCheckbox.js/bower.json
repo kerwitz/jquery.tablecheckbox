@@ -1,0 +1,14 @@
+{
+  "name": "jquery.tableCheckbox.js",
+  "version": "1.0.0",
+  "authors": [
+    "kerwitz <marco@kerwitz.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "package.json",
+    "gulpfile.js"
+  ]
+}
