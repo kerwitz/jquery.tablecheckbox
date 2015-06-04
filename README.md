@@ -64,3 +64,6 @@ Default:
     }
 
 The function used to determine wether a checkbox is checked or not.
+
+## License
+MIT, Copyright (c) 2015, Marco Kerwitz (https://www.kerwitz.com)
