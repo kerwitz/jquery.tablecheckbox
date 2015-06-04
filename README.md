@@ -1,3 +1,8 @@
+![downloads](https://img.shields.io/github/downloads/kerwitz/jquery.tableCheckbox.js/latest/total.svg)
+![release](https://img.shields.io/github/release/kerwitz/jquery.tableCheckbox.js.svg)
+![bower](https://img.shields.io/bower/v/jquery.tableCheckbox.js.svg)
+![license](https://img.shields.io/github/license/kerwitz/jquery.tableCheckbox.js.svg)
+
 # jquery.tableCheckbox.js
 A jQuery plugin that lets you easily enhance data tables with selectable rows.
 
