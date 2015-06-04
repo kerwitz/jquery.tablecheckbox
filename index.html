@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta http-equiv="Content-Language" content="en">
+        <title>jquery.tableCheckbox.js</title>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <header>
+            <h1>jquery.tableCheckbox.js</h1>
+        </header>
+        <section class="demo">
+            <table class="demo-table">
+                <thead>
+                    <th style="width:20px;"><input type="checkbox"></th>
+                    <th>Name</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td>Berlin</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td>Hamburg</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td>Hannover</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td>Frankfurt</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td>Dresden</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td>Cologne</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section class="download">
+            <a href="https://github.com/kerwitz/jquery.tableCheckbox.js/releases" class="action">
+                &#8595; Grab the latest release
+            </a>
+            <p class="hin">
+                <strong>Or install using bower:</strong><br><br>
+                <code>bower install jquery.tableCheckbox.js</code>
+            </p>
+        </section>
+        <section class="content">
+            <h3>Where to get support</h3>
+            <p>
+                Please use the <a href="https://github.com/kerwitz/jquery.tableCheckbox.js/issues">issues</a>
+                of the <a href="https://github.com/kerwitz/jquery.tableCheckbox.js">Github repository</a> to
+                file any bugs you come across.
+            </p>
+            <h3>How to contribute</h3>
+            <p>
+                <ol>
+                    <li>Fork the <a href="https://github.com/kerwitz/jquery.tableCheckbox.js">Github repository</a></li>
+                    <li>Make your changes to your fork</li>
+                    <li>Run gulp minify to update the minified version</li>
+                    <li>Create a pull request on the original repository</li>
+                </ol>
+            </p>
+            <h4>Contributors</h4>
+            <a href="https://github.com/kerwitz" title="Marco Kerwitz" class="contributor" style="background-image: url(https://avatars2.githubusercontent.com/u/105719);"></a>
+        </section>
+        <section class="footnote">
+            A project by <a href="http://www.kerwitz.com">Marco Kerwitz</a>
+        </section>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+            ga('create', 'UA-44076475-6', 'auto');
+            ga('send', 'pageview');
+        </script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+        <script src="lib/jquery.tableCheckbox.js/jquery.tableCheckbox.min.js"></script>
+        <script>
+            $(function(){
+                $('.demo-table').tableCheckbox({selectedRowClass: 'selected'});
+            });
+        </script>
+    </body>
+</html>
