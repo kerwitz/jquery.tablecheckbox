@@ -1,0 +1,120 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600);
+
+html, body {
+    background: #fff;
+    margin: 0; padding: 0;
+    width: 100%; height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #525252;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a, a:visited {
+    color: #02b7c6;
+}
+
+h1, h3, h4 {
+    font-weight: 600;
+    font-size: 2em;
+    padding: 0; margin: 4em 0 2em 0;
+    text-align: center;
+}
+
+h3:first-of-type { margin-top: 2em; }
+
+h4 {
+    font-size: 1.5em;
+    margin: 3em 0 1em 0;
+}
+
+header, section {
+    width: 800px;
+    margin: 0 auto;
+    padding: 50px 100px;
+    font-size: .7em;
+}
+
+header {}
+
+.demo-table {
+    width: 100%;
+    border: 2px solid #525252;
+    border-spacing: 0px;
+    border-collapse: separate;
+}
+
+.demo-table thead th {
+    background: #E6E6E6;
+    padding: 10px;
+    text-align: left;
+}
+
+.demo-table tbody td {
+    padding: 10px;
+}
+
+.demo-table tbody tr:hover td {
+    background: #F2F2F2;
+}
+
+.demo-table tbody tr.selected td {
+    background: #00ffb3;
+}
+
+.demo-table tbody tr.selected:hover td {
+    background: #50E6B9;
+}
+
+section.content {}
+
+section.content ol {
+    margin: 0;
+}
+
+section.content ol li {
+    margin-bottom: .5em;
+    line-height: 2em;
+}
+
+p.hint {
+    background: #F4B350;
+    font-size: .8em;
+    margin: 3em 0; padding: 1em;
+    border-radius: 6px;
+    text-align: justify;
+}
+
+section.download {}
+
+section.download .action {
+    display: block;
+    background: #00ffb3;
+    font-size: 2em;
+    width: 90%;
+    margin: 0 auto;
+    color: #02b5c9;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+a.contributor {
+    display: block;
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    background-size: cover;
+    background-position: center center;
+    margin: 0 .5em .5em 0;
+}
+
+section.footnote {
+    border-top: 1px solide #CECECE;
+    font-size: .5em;
+}
