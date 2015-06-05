@@ -1,6 +1,6 @@
 {
   "name": "jquery.tablecheckbox",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "authors": [
     "kerwitz <marco@kerwitz.com>"
   ],
@@ -23,14 +23,14 @@
     "gulpfile.js"
   ],
   "homepage": "https://github.com/kerwitz/jquery.tablecheckbox",
-  "_release": "1.0.1",
+  "_release": "1.0.2",
   "_resolution": {
     "type": "version",
-    "tag": "1.0.1",
-    "commit": "f0cc624cad0bd0e131ab2c548e3466f06f8d27ab"
+    "tag": "1.0.2",
+    "commit": "44e583634b0f6a30d60fdfc3aaace2fa601c5fd9"
   },
   "_source": "git://github.com/kerwitz/jquery.tablecheckbox.git",
-  "_target": "~1.0.1",
+  "_target": "~1.0.2",
   "_originalSource": "jquery.tablecheckbox",
   "_direct": true
 }
