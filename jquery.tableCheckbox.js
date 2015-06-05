@@ -4,7 +4,7 @@
      *
      *
      * @author Marco Kerwitz <marco@kerwitz.com>
-     * @see    https://github.com/kerwitz/jquery.tableCheckbox
+     * @see    https://github.com/kerwitz/jquery.tablecheckbox
      */
     $.fn.tableCheckbox = function(options) {
         var _private = {

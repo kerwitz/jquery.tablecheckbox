@@ -1,12 +1,12 @@
 {
-  "name": "jquery.tableCheckbox",
+  "name": "jquery.tablecheckbox",
   "version": "1.0.1",
   "authors": [
     "kerwitz <marco@kerwitz.com>"
   ],
   "main": [
-    "jquery.tableCheckbox.js",
-    "jquery.tableCheckbox.min.js"
+    "jquery.tablecheckbox.js",
+    "jquery.tablecheckbox.min.js"
   ],
   "keywords": [
     "jquery-plugin",

@@ -1,18 +1,18 @@
 {
-  "name": "jquery.tableCheckbox",
+  "name": "jquery.tablecheckbox",
   "version": "1.0.1",
   "description": "A jQuery plugin that lets you easily enhance data tables with selectable rows.",
-  "repository": "kerwitz/jquery.tableCheckbox",
+  "repository": "kerwitz/jquery.tablecheckbox",
   "lincense": "MIT",
   "main": [
-    "jquery.tableCheckbox.js",
-    "jquery.tableCheckbox.min.js"
+    "jquery.tablecheckbox.js",
+    "jquery.tablecheckbox.min.js"
   ],
   "files": [
     "LICENSE",
     "README.md",
-    "jquery.tableCheckbox.js",
-    "jquery.tableCheckbox.min.js"
+    "jquery.tablecheckbox.js",
+    "jquery.tablecheckbox.min.js"
   ],
   "keywords": [
       "jquery-plugin",
@@ -21,7 +21,7 @@
       "data-table",
       "selectable rows"
   ],
-  "homepage": "https://kerwitz.github.io/jquery.tableCheckbox",
+  "homepage": "https://kerwitz.github.io/jquery.tablecheckbox",
   "author": {
     "name": "Marco Kerwitz",
     "email": "marco@kerwitz.com",

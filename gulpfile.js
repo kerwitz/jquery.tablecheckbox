@@ -3,8 +3,8 @@ var gulp = require('gulp');
     rename = require("gulp-rename");
 
 gulp.task('minify', function() {
-  return gulp.src('jquery.tableCheckbox.js')
+  return gulp.src('jquery.tablecheckbox.js')
     .pipe(uglify())
-    .pipe(rename('jquery.tableCheckbox.min.js'))
+    .pipe(rename('jquery.tablecheckbox.min.js'))
     .pipe(gulp.dest(''));
 });
