@@ -9,13 +9,14 @@ A jQuery plugin that lets you easily enhance data tables with selectable rows.
 
 ## Installation
 You have a couple of options here:
-1. Grab the latest release from Github
-2. Install using bower:
 
-        bower install jquery.tableCheckbox
-3. Install using npm:
+  1. Grab the latest release from Github
+  2. Install using bower:
 
-        npm install jquery.tableCheckbox
+          bower install jquery.tableCheckbox
+  3. Install using npm:
+
+          npm install jquery.tableCheckbox
 
 ## Features
 
