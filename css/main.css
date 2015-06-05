@@ -37,6 +37,7 @@ header, section {
     margin: 0 auto;
     padding: 50px 100px;
     font-size: .7em;
+    text-align: center;
 }
 
 header {}
@@ -48,14 +49,13 @@ header {}
     border-collapse: separate;
 }
 
-.demo-table thead th {
+.demo-table th {
     background: #E6E6E6;
-    padding: 10px;
-    text-align: left;
 }
 
-.demo-table tbody td {
+.demo-table td, .demo-table th {
     padding: 10px;
+    text-align: left;
 }
 
 .demo-table tbody tr:hover td {
@@ -74,6 +74,7 @@ section.content {}
 
 section.content ol {
     margin: 0;
+    text-align: left;
 }
 
 section.content ol li {
@@ -105,7 +106,7 @@ section.download .action {
 }
 
 a.contributor {
-    display: block;
+    display: inline-block;
     width: 80px;
     height: 80px;
     border-radius: 100px;
