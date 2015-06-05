@@ -1,8 +1,19 @@
 {
-  "name": "jquery.tableCheckbox.js",
-  "version": "1.0.0",
+  "name": "jquery.tableCheckbox",
+  "version": "1.0.1",
   "authors": [
     "kerwitz <marco@kerwitz.com>"
+  ],
+  "main": [
+    "jquery.tableCheckbox.js",
+    "jquery.tableCheckbox.min.js"
+  ],
+  "keywords": [
+    "jquery-plugin",
+    "table",
+    "checkbox",
+    "data-table",
+    "selectable rows"
   ],
   "license": "MIT",
   "ignore": [
