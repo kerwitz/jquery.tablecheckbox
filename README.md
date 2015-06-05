@@ -1,15 +1,17 @@
-![downloads](https://img.shields.io/github/downloads/kerwitz/jquery.tableCheckbox.js/latest/total.svg)
-![release](https://img.shields.io/github/release/kerwitz/jquery.tableCheckbox.js.svg)
-![bower](https://img.shields.io/bower/v/jquery.tableCheckbox.js.svg)
-![license](https://img.shields.io/github/license/kerwitz/jquery.tableCheckbox.js.svg)
+![downloads](https://img.shields.io/github/downloads/kerwitz/jquery.tableCheckbox/latest/total.svg)
+![release](https://img.shields.io/github/release/kerwitz/jquery.tableCheckbox.svg)
+![bower](https://img.shields.io/bower/v/jquery.tableCheckbox.svg)
+![license](https://img.shields.io/github/license/kerwitz/jquery.tableCheckbox.svg)
 
-# jquery.tableCheckbox.js
+# jquery.tableCheckbox
 A jQuery plugin that lets you easily enhance data tables with selectable rows.
 
 ## Installation
-Grab the latest release from Github or install using bower:
+You have a couple of options here:
+1. Grab the latest release from Github
+2. Install using bower:
 
-    bower install jquery.tableCheckbox.js
+        bower install jquery.tableCheckbox
 
 ## Features
 
