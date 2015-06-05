@@ -1,6 +1,7 @@
 ![downloads](https://img.shields.io/github/downloads/kerwitz/jquery.tableCheckbox/latest/total.svg)
 ![release](https://img.shields.io/github/release/kerwitz/jquery.tableCheckbox.svg)
 ![bower](https://img.shields.io/bower/v/jquery.tableCheckbox.svg)
+![npm](https://img.shields.io/npm/v/jquery.tableCheckbox.svg)
 ![license](https://img.shields.io/github/license/kerwitz/jquery.tableCheckbox.svg)
 
 # jquery.tableCheckbox
@@ -12,6 +13,9 @@ You have a couple of options here:
 2. Install using bower:
 
         bower install jquery.tableCheckbox
+3. Install using npm:
+
+        npm install jquery.tableCheckbox
 
 ## Features
 
