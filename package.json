@@ -1,6 +1,6 @@
 {
   "name": "jquery.tablecheckbox",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A jQuery plugin that lets you easily enhance data tables with selectable rows.",
   "repository": "kerwitz/jquery.tablecheckbox",
   "lincense": "MIT",
