@@ -1,0 +1,25 @@
+{
+  "name": "jquery.tablecheckbox",
+  "version": "1.0.1",
+  "authors": [
+    "kerwitz <marco@kerwitz.com>"
+  ],
+  "main": [
+    "jquery.tablecheckbox.js",
+    "jquery.tablecheckbox.min.js"
+  ],
+  "keywords": [
+    "jquery-plugin",
+    "table",
+    "checkbox",
+    "data-table",
+    "selectable rows"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "package.json",
+    "gulpfile.js"
+  ]
+}

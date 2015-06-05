@@ -1,10 +1,22 @@
-# jquery.tableCheckbox.js
+![downloads](https://img.shields.io/github/downloads/kerwitz/jquery.tablecheckbox/latest/total.svg)
+![release](https://img.shields.io/github/release/kerwitz/jquery.tablecheckbox.svg)
+![bower](https://img.shields.io/bower/v/jquery.tablecheckbox.svg)
+![npm](https://img.shields.io/npm/v/jquery.tablecheckbox.svg)
+![license](https://img.shields.io/github/license/kerwitz/jquery.tablecheckbox.svg)
+
+# jquery.tablecheckbox
 A jQuery plugin that lets you easily enhance data tables with selectable rows.
 
 ## Installation
-Grab the latest release from Github or install using bower:
+You have a couple of options here:
 
-    bower install jquery.tableCheckbox.js
+  1. Grab the latest release from Github
+  2. Install using bower:
+
+          bower install jquery.tablecheckbox
+  3. Install using npm:
+
+          npm install jquery.tablecheckbox
 
 ## Features
 
@@ -32,7 +44,7 @@ Grab the latest release from Github or install using bower:
             </tr>
         </tbody>
     </table>
-    <script>$('table').tableCheckbox();</script>
+    <script>$('table').tablecheckbox();</script>
 
 You may use this plugin with other markup structures or ways of input.
 Use the options below to make it fit your use case.
@@ -41,7 +53,7 @@ Use the options below to make it fit your use case.
 
 ## Options
 
-    $('table').tableCheckbox({ /* options */ });
+    $('table').tablecheckbox({ /* options */ });
 
 ### selectedRowClass
 
@@ -64,3 +76,6 @@ Default:
     }
 
 The function used to determine wether a checkbox is checked or not.
+
+## License
+MIT, Copyright (c) 2015, Marco Kerwitz (https://www.kerwitz.com)

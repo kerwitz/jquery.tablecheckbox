@@ -1,0 +1,36 @@
+{
+  "name": "jquery.tablecheckbox",
+  "version": "1.0.1",
+  "authors": [
+    "kerwitz <marco@kerwitz.com>"
+  ],
+  "main": [
+    "jquery.tablecheckbox.js",
+    "jquery.tablecheckbox.min.js"
+  ],
+  "keywords": [
+    "jquery-plugin",
+    "table",
+    "checkbox",
+    "data-table",
+    "selectable rows"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "package.json",
+    "gulpfile.js"
+  ],
+  "homepage": "https://github.com/kerwitz/jquery.tablecheckbox",
+  "_release": "1.0.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.0.1",
+    "commit": "f0cc624cad0bd0e131ab2c548e3466f06f8d27ab"
+  },
+  "_source": "git://github.com/kerwitz/jquery.tablecheckbox.git",
+  "_target": "~1.0.1",
+  "_originalSource": "jquery.tablecheckbox",
+  "_direct": true
+}
