@@ -1,4 +1,4 @@
-![downloads](https://img.shields.io/github/downloads/kerwitz/jquery.tablecheckbox/latest/total.svg)
+![downloads](https://img.shields.io/npm/dm/jquery.tablecheckbox.svg)
 ![release](https://img.shields.io/github/release/kerwitz/jquery.tablecheckbox.svg)
 ![bower](https://img.shields.io/bower/v/jquery.tablecheckbox.svg)
 ![npm](https://img.shields.io/npm/v/jquery.tablecheckbox.svg)
