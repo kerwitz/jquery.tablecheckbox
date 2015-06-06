@@ -7,6 +7,8 @@
 # jquery.tablecheckbox
 A jQuery plugin that lets you easily enhance data tables with selectable rows.
 
+[Demo](http://kerwitz.github.io/jquery.tablecheckbox)
+
 ## Installation
 You have a couple of options here:
 
