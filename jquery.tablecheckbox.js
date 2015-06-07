@@ -103,9 +103,17 @@
                         $inbetween.find(_private.config.checkboxSelector)
                             .prop('checked', _private.config.isChecked($checkbox))
                             .trigger('change', [true]);
+                        // Trigger table level event.
+                        $table.trigger(
+                            _private.config.isChecked($checkbox)
+                                ? 'multirowselect'
+                                : 'multirowdeselect'
+                        );
                     }
                     $lastRow = $row;
                     $row.toggleClass(_private.config.selectedRowClass, _private.config.isChecked($checkbox));
+                    // Trigger row level event.
+                    $row.trigger(_private.config.isChecked($checkbox) ? 'rowselect' : 'rowdeselect');
                 });
                 // Monitor the row and check the checkbox accordingly.
                 $row.on('click', function(e) {
