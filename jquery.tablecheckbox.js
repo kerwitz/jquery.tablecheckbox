@@ -89,7 +89,9 @@
             // Cycle through each checkbox found on the table.
             $checkboxes.each(function() {
                 var $checkbox = $(this),
-                    $row = $checkbox.parents('tr');
+                    $row = $checkbox.parents('tr'),
+                    $inbetween,
+                    $allRows;
                 $checkbox.on('change', function(e, isInternal) {
                     // When the user clicks directly on the rows he will unwillingly select
                     // the text of all rows inbetween. Remove that selection immediately.
@@ -103,17 +105,24 @@
                         $inbetween.find(_private.config.checkboxSelector)
                             .prop('checked', _private.config.isChecked($checkbox))
                             .trigger('change', [true]);
+                        $allRows = $inbetween.add($row, $lastRow);
                         // Trigger table level event.
                         $table.trigger(
-                            _private.config.isChecked($checkbox)
-                                ? 'multirowselect'
-                                : 'multirowdeselect'
+                            _private.config.isChecked($checkbox) ? 'multirowselect' : 'multirowdeselect',
+                            {
+                                $rows: $allRows,
+                                $checkboxes: $allRows.find(_private.config.checkboxSelector),
+                                rowcount: $allRows.length
+                            }
                         );
                     }
                     $lastRow = $row;
                     $row.toggleClass(_private.config.selectedRowClass, _private.config.isChecked($checkbox));
                     // Trigger row level event.
-                    $row.trigger(_private.config.isChecked($checkbox) ? 'rowselect' : 'rowdeselect');
+                    $row.trigger(
+                        _private.config.isChecked($checkbox) ? 'rowselect' : 'rowdeselect',
+                        {$row: $row,$checkbox: $checkbox}
+                    );
                 });
                 // Monitor the row and check the checkbox accordingly.
                 $row.on('click', function(e) {
