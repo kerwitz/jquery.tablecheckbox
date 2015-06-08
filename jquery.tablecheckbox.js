@@ -91,7 +91,7 @@
                     {
                         $rows: $allRows,
                         $checkboxes: $allRows.find(_private.config.checkboxSelector),
-                        rowcount: $allRows.length
+                        rowCount: $allRows.length
                     }
                 );
             });
@@ -121,7 +121,7 @@
                             {
                                 $rows: $allRows,
                                 $checkboxes: $allRows.find(_private.config.checkboxSelector),
-                                rowcount: $allRows.length
+                                rowCount: $allRows.length
                             }
                         );
                     }
