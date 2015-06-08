@@ -82,9 +82,18 @@
             // Listen for changes on the checkbox in the table header and apply its current state
             // to all checkboxe on the table.
             $headCheckbox.on('change', function(e) {
+                var $allRows = $table.find('tbody tr');
                 $checkboxes
                     .prop('checked', _private.config.isChecked($headCheckbox))
                     .trigger('change');
+                $table.trigger(
+                    _private.config.isChecked($headCheckbox) ? 'multirowselect' : 'multirowdeselect',
+                    {
+                        $rows: $allRows,
+                        $checkboxes: $allRows.find(_private.config.checkboxSelector),
+                        rowcount: $allRows.length
+                    }
+                );
             });
             // Cycle through each checkbox found on the table.
             $checkboxes.each(function() {
