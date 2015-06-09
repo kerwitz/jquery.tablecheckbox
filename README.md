@@ -12,7 +12,7 @@ A jQuery plugin that lets you easily enhance data tables with selectable rows.
 ## Installation
 You have a couple of options here:
 
-  1. Grab the latest release from Github
+  1. Grab the [latest release](https://github.com/kerwitz/jquery.tablecheckbox/releases/latest) from Github
   2. Install using bower:
 
           bower install jquery.tablecheckbox
