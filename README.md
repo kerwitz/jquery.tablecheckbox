@@ -77,7 +77,7 @@ Default:
         return $checkbox.is(':checked');
     }
 
-The function used to determine wether a checkbox is checked or not.
+The function used to determine whether a checkbox is checked or not.
 
 ## License
 MIT, Copyright (c) 2015, Marco Kerwitz (https://www.kerwitz.com)
